@@ -142,7 +142,7 @@ namespace BayatGames.Frameworks.Voxel3D.Definitions
             {
                 assetPath = AssetDatabase.GetAssetPath(this.sheetTexture);
             }
-            Texture2D sheet = new Texture2D(0, 0, TextureFormat.ARGB32, false);
+            Texture2D sheet = new Texture2D(1, 1, TextureFormat.ARGB32, false);
             List<Texture2D> textures = new List<Texture2D>();
             List<BlockDefinition> blocks = this.Blocks;
             for (int i = 0; i < blocks.Count; i++)
